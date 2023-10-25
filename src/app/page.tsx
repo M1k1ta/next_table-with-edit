@@ -1,5 +1,4 @@
 'use client';
-/* eslint-disable react-hooks/exhaustive-deps */
 import { readUser } from '@/utils/readUser';
 import { useRouter } from 'next/navigation';
 import { useEffect, useState } from 'react';
