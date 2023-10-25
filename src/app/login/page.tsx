@@ -1,6 +1,3 @@
-/* eslint-disable react-hooks/exhaustive-deps */
-'use client';
-
 import { Button } from '@/components/Button';
 import { Input } from '@/components/Input';
 import { login } from '@/utils/loginUser';
