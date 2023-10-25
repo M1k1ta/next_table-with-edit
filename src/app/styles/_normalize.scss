@@ -1,0 +1,18 @@
+@import './_vars.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Segoe UI', 'Roboto', sans-serif;
+}
+
+input {
+  border: 1px solid #d1d1d1;
+
+  &:focus {
+    outline: 2px solid #6fa9ff;
+    border: none;
+  }
+}

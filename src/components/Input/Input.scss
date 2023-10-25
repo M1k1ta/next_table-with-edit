@@ -1,0 +1,37 @@
+@import '../../app/styles/vars';
+
+.custom-input {
+  position: relative;
+
+  &__name {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+
+  &__field {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+
+    font-size: 16px;
+
+    &--error {
+      border-color: $error-color;
+
+      &:focus {
+        outline-color: $error-color;
+      }
+    }
+  }
+
+  &__error {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+
+    padding: 0 5px;
+    font-size: 14px;
+    color: $error-color;
+    background-color: #fff;
+  }
+}

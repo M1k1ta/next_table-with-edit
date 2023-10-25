@@ -1,0 +1,24 @@
+@import '../../app/styles/vars';
+
+.pagination {
+  display: flex;
+  gap: 10px;
+
+  &__button {
+    color: $main-color;
+    background-color: #fff;
+    border: 1px solid $main-color;
+    border-radius: 5px;
+    font-size: 20px;
+    transition: background-color $transition-time;
+
+    &:hover {
+      background-color: $secondary-color;
+    }
+
+    &:disabled {
+      color: $disabled-color;
+      border-color: $disabled-color;
+    }
+  }
+}

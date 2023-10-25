@@ -1,0 +1,35 @@
+@import '../../app/styles/vars';
+
+.people-table {
+  table-layout: fixed;
+  overflow: hidden;
+  width: 100%;
+  margin: 20px auto;
+  border-radius: 20px;
+  
+
+  &__header {
+    background-color: $main-color;
+    width: 100%;
+  }
+
+  &__column {
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  &__row {
+    background-color: $secondary-color;
+    width: 100%;
+  }
+
+  &__header &__column {
+    padding: 10px 0;
+  }
+
+  &__row &__column {
+    height: 50px;
+  }
+}

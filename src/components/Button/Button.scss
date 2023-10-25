@@ -1,0 +1,15 @@
+@import '../../app/styles/vars';
+
+.custom-button {
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  background-color: $main-color;
+  font-weight: 600;
+  transition: background-color $transition-time;
+
+  &:disabled {
+    background-color: $disabled-color;
+  }
+}
