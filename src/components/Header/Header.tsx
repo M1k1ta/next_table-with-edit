@@ -1,3 +1,4 @@
+'use client';
 import './Header.scss';
 import { Button } from '../Button';
 import { Pagination } from '../Pagination';
@@ -7,7 +8,7 @@ export const Header: React.FC = () => {
   const router = useRouter();
 
   const logout = () => {
-    document.cookie = 'user=; Max-Age=0; path=/; domain=' + location.host;
+    document.cookie = 'user=; Max-Age=0; path=/; domain=' + location.hostname;
     router.push('/login');
   };
 

@@ -1,3 +1,4 @@
+'use client';
 import './Loader.scss';
 
 export const Loader = () => (
