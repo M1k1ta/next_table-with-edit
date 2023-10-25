@@ -7,7 +7,12 @@
   color: #fff;
   background-color: $main-color;
   font-weight: 600;
-  transition: background-color $transition-time;
+  transition: background-color $transition-time, color $transition-time;
+
+  &:hover {
+    background-color: $secondary-color;
+    color: $main-color;
+  }
 
   &:disabled {
     background-color: $disabled-color;

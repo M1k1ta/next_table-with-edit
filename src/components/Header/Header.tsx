@@ -8,7 +8,7 @@ export const Header: React.FC = () => {
   const router = useRouter();
 
   const logout = () => {
-    document.cookie = 'user=; Max-Age=0; path=/; domain=' + location.hostname;
+    document.cookie = 'user=; path=/; expires=' + new Date(0).toUTCString()
     router.push('/login');
   };
 
