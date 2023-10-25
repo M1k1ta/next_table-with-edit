@@ -1,3 +1,4 @@
+'use client';
 import { useAppDispatch, useAppSelector } from '@/app/GlobalRedux/hooks';
 import './Pagination.scss';
 import { actions as peopleActions } from '@/app/GlobalRedux/Features/people/peopleSlice';
