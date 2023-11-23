@@ -3,6 +3,9 @@
 
 [DEMO](https://next-table-with-edit.vercel.app/)
 
+username: testuser
+
+password: testpassword123
 
 ## Technologies
 - React
